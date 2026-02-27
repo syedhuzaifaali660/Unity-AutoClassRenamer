@@ -20,7 +20,7 @@ This tool is formatted as a standard Unity Package. You can install it directly 
 3. Click the **"+"** drop-down in the top-left corner.
 4. Select **"Add package from git URL..."**
 5. Paste the following link and click **Add**:
-https://github.com/syedhuzaifaali660/Unity-AutoClassRenamer
+https://github.com/syedhuzaifaali660/Unity-AutoClassRenamer.git
 
 ## 🚀 How to Use
 
