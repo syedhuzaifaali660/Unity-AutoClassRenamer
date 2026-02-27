@@ -1,15 +1,15 @@
 # Auto Class Renamer for Unity
 
-A lightweight, open-source Unity Editor tool that automatically renames your C# classes to match their file names whenever you rename a script in the Project window.
+A lightweight, open-source Unity Editor tool that automatically keeps your C# class names in sync with their file names whenever you rename a script in the Project window.
 
-Say goodbye to the classic Unity annoyance: renaming a `PlayerContoller.cs` file, only to realize the internal `class PlayerContoller` didn't update and broke your compilation.
+Say goodbye to the classic Unity annoyance: renaming `PlayerController.cs`, only to find the internal `class PlayerController` didn't update — leaving you unable to attach the script to new GameObjects and causing confusion across your codebase.
 
 ## ✨ Features
 
-* **Zero Clicks Required:** Works completely in the background. Just rename your `.cs` file in the Unity Editor, and the script handles the rest.
-* **Smart Reference Updating:** Not only does it rename the main class, but it also scans your entire project and updates references to that class in *all other scripts*.
-* **Editor-Only:** Uses a custom Assembly Definition (`.asmdef`) to ensure this tool stays in the Editor and never bloats your final game build.
-* **Safe Parsing:** Uses Regex to ensure it only targets actual class declarations, ignoring comments or unrelated string matches.
+- **Zero Clicks Required:** Works completely in the background. Just rename your `.cs` file in the Unity Editor, and the script handles the rest.
+- **Smart Reference Updating:** Not only does it rename the main class, but it also scans your entire project and updates any typed references to that class in all other scripts — preventing real compilation errors from `GetComponent<OldName>()` and `public OldName myField;` calls.
+- **Editor-Only:** Uses a custom Assembly Definition (`.asmdef`) to ensure this tool stays in the Editor and never bloats your final game build.
+- **Safe Parsing:** Uses Regex to ensure it only targets actual class declarations, ignoring comments or unrelated string matches.
 
 ## 📦 Installation (Unity Package Manager)
 
