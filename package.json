@@ -1,0 +1,17 @@
+{
+  "name": "com.syedhuzaifaali660.autorenamer",
+  "version": "1.0.0",
+  "displayName": "Auto Class Renamer",
+  "description": "Automatically renames C# classes to match their file names when renamed in the Unity Editor, and updates all references across the project.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Syed Huzaifa Ali",
+    "url": "https://github.com/syedhuzaifaali660"
+  },
+  "keywords": [
+    "unity",
+    "editor",
+    "tool",
+    "refactoring"
+  ]
+}
